@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="description" content="Ruleta Tap Web 2.0">
+	<meta name="author" content="Emerson Barradas">
+	<link rel="icon" href="img/favicon.ico">
+	<title>RuleTAP Web 2.0</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://kit.fontawesome.com/f5f2444b05.js"></script> <!- Enlace a fontawesome.com ->
+</head>
+
+<body>
+    <section id="eme-header" class="container-fluid">
+        <div id="eme-fila-logo" class="row">
+            <div class="col-12 text-center"><img class="eme-logotap" src="img/LogoTap.png" alt=""></div>
+        </div>
+        <div class="row justify-content-around">
+            <div class="col-3 text-center border rounded eme-col-espacio"><img class="eme-logos" src="img/logo-1.png" alt=""></div>
+            <div class="col-3 text-center border rounded eme-col-espacio"><img class="eme-logos" src="img/logo-2.png" alt=""></div>
+            <div class="col-3 text-center border rounded eme-col-espacio"><img class="eme-logos" src="img/logo-3.png" alt=""></div>
+        </div>
+    </section>
+
+    <section id="eme-contenido" class="container-fluid">
+        <div class="row">
+            <div class="col-12 text-center eme-div-titulo  ">
+                <p class="">Jugá a la RuleTap y llevate un premio siempre</p>
+            </div>
+        </div>
+        <div class="row justify-content-center" >
+            <div class="col-12 text-center justify-content-center ">
+                <form id="jugar" action="ruletap.html" method="post">
+                    <div class="eme-inputformulario text-center ">
+                        <input class="form-control eme-input" id="email" name="email" type="text" placeholder="Ingresá tu email" required>
+                    </div>
+                    <div>
+                        <input class="eme-boton btn btn-info btn-responsive" id="participa" name="participa" type="submit" value="Jugar a la Ruleta">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row eme-div-txt-premios">
+            <div class="col-12 ">
+                <p class="eme-color-blanco">Premios disponibles</p>
+            </div>
+        </div>   
+
+        <div id="myCarousel" class="carousel slide w-100" data-ride="carousel">
+            <div class="carousel-inner w-70" role="listbox">
+              <div class="carousel-item active">
+                <div class="col-5 text-center eme-div-premio border rounded">
+                  <img class="img-fluid" src="img/premio-1.png">
+                  <p>Limonada</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-5 text-center eme-div-premio border rounded">
+                  <img class="img-fluid" src="img/premio-2.png">
+                  <p>Pizza Hawaiiana</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-5 text-center eme-div-premio border rounded" >
+                  <img class="img-fluid" src="img/premio-3.png">
+                  <p>Cerveza rubia pinta 500cc</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-5 text-center eme-div-premio border rounded" >
+                  <img class="img-fluid" src="img/premio-4.png">
+                  <p>Hamburguesa con papas</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-5 text-center eme-div-premio border rounded">
+                  <img class="img-fluid" src="img/premio-5.png">
+                  <p>Sushi para 1</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-5 text-center eme-div-premio border rounded">
+                  <img class="img-fluid" src="img/premio-6.png">
+                  <p>Papas con cheddar</p>
+                </div>
+              </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-12 text-center eme-div-condiciones">
+                <p> <a href="https://auntap.com/terminos-y-condiciones/"> Al jugar acepto los Términos y Condiciones.</a>  </p>
+                <p>Tap Billetera S.A</p>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="js/carousel.js"></script>
+
+
+
+</body>
+</html>
